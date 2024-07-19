@@ -11,7 +11,7 @@ with open("src/style.css") as f:
 
 # Load testing data
 test_cases = pd.read_csv(
-    "../datasets/test_cases.csv"
+    "datasets/test_cases.csv"
 )
 
 

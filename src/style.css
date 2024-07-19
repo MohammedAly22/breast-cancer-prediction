@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+/* title */
+h1 {
+    font-weight: 700;
+}
+
+
+/* buttons ef3psqc12 */
+.st-emotion-cache-1vt4y43 {
+    height: 40px;
+    background-color: #3de39b;
+    color: #fff;
+    transition: 0.4s;
+    border: none;
+}
+
+
+.st-emotion-cache-1vt4y43:hover {
+    background-color: #33ce8b;
+    color: #fff;
+    border: none;
+}
+
+.st-emotion-cache-1vt4y43:focus {
+    color: #fff !important;
+    box-shadow: none;
+    border: none;
+}
+
+/* header */
+.row_heading {
+    font-size: 14px;
+}

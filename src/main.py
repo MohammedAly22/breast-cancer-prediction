@@ -41,14 +41,14 @@ def generate_random_sample():
 
 # Load scaler
 with open(
-    "../models/scaler.pkl", "rb"
+    "models/scaler.pkl", "rb"
 ) as f:
     scaler = pickle.load(f)
 
 
 # Load model
 with open(
-    "../models/xgboost_model.pkl",
+    "models/xgboost_model.pkl",
     "rb",
 ) as f:
     model = pickle.load(f)

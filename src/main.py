@@ -6,7 +6,7 @@ import random
 
 
 # for custom CSS styling
-with open("breast_cancer_prediction/src/style.css") as f:
+with open("../src/style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Load testing data

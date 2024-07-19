@@ -1,0 +1,8 @@
+numpy==1.23.5
+pandas
+scikit-image==0.20.0
+scikit-learn==1.2.2
+seaborn==0.12.2
+streamlit==1.36.0
+streamlit-state==0.1.0
+xgboost==2.1.0

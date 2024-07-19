@@ -11,7 +11,7 @@ with open("src/style.css") as f:
 
 # Load testing data
 test_cases = pd.read_csv(
-    "C:/Users/as/Desktop/Breast Cancer/breast_cancer_prediction/datasets/test_cases.csv"
+    "../datasets/test_cases.csv"
 )
 
 
@@ -41,14 +41,14 @@ def generate_random_sample():
 
 # Load scaler
 with open(
-    "C:/Users/as/Desktop/Breast Cancer/breast_cancer_prediction/models/scaler.pkl", "rb"
+    "../models/scaler.pkl", "rb"
 ) as f:
     scaler = pickle.load(f)
 
 
 # Load model
 with open(
-    "C:/Users/as/Desktop/Breast Cancer/breast_cancer_prediction/models/xgboost_model.pkl",
+    "../models/xgboost_model.pkl",
     "rb",
 ) as f:
     model = pickle.load(f)
